@@ -18,6 +18,10 @@ app.use(
 );
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('✅ Agent Manager Backend is running!');
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/agents', agentRoutes);
 app.use('/api/lists', listRoutes);
