@@ -54,12 +54,6 @@ export default function Login() {
           <CardDescription className="text-center">
             Sign in to your admin account
           </CardDescription>
-          <CardDescription className="text-center">
-            Email : admin@example.com
-          </CardDescription>
-          <CardDescription className="text-center">
-            PW : admin123
-          </CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
